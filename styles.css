@@ -1,0 +1,481 @@
+/*For the website header.*/
+
+/*
+* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+*/
+#site-header-container 
+{ 
+
+  position: fixed;
+  top: 0;   
+  left:0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 17px 10px 17px;
+  -webkit-box-shadow: 2px 2px 2px 2px #757575;
+  -moz-box-shadow: 2px 2px 2px 2px #757575;
+  box-shadow:  2px 2px 2px 2px #757575;
+  background-color: #fff;
+  height:35px;
+  opacity: 0.80;
+}
+
+#logo-box 
+{
+	  margin: auto;
+    min-width: 1024px;
+    max-width: 1280px;
+    position: relative;
+    padding: 0px 15px;
+}
+
+#site-header 
+{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 1024px;
+    max-width: 1280px;
+}
+
+/*For the Navbar.*/
+
+#navbar 
+{	
+	position: fixed;
+	width: 65%;
+	top: 0;
+	left: 20%;
+  font-size: 20px;
+  font-family: "HelveticaNeueLT Com 35 th", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+li
+{
+	display: inline;
+	padding: 2em;
+}
+
+/*Note-To-Self: #702D97 is the Purplish Color. Change for the link color only.*/
+
+#navbar a:hover 
+{
+    background-color: #FFF;
+    font-weight: bold;
+}
+
+#navbar a
+{	
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+}
+
+#middle
+{	  
+	position: fixed;
+	top: 20%;
+	left: 40%;
+  background-color: #FFF;
+}
+
+/* Form Styling */
+form 
+{
+  border: 1px solid #c6c7cc;
+  font: 14px/1.4 "HelveticaNeueLT Com 55 Roman", Helvetica, Arial, sans-serif;
+  overflow: hidden; 
+  width: 240px;
+}
+
+form span
+{
+  text-align: center;
+  border: 0;
+  font: 14px/1.4 "HelveticaNeueLT Com 55 Roman", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  color: #395870;
+}
+
+form span a:link, a:visited
+{
+  color:#395870;
+}
+
+form span a:hover
+{
+  color:#F27F14;
+}
+
+fieldset 
+{
+  margin: 0;
+  padding: 2px;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "HelveticaNeueLT Com 55 Roman", Helvetica, Arial, sans-serif;
+  margin: 10px 10px 10px 10px;
+  padding: 2px;
+}
+
+.account-info 
+{
+  padding: 20px 20px 20px 20px;
+}
+
+.account-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left:-.50em; 
+  width: 100%;
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin-left: 45px;
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 12px;
+  margin: 10px 0 0 20px;
+}
+
+.loginHeading
+{
+  color: #395870;
+  font-size: 70px;
+  position: relative;
+  padding:0px;
+  margin:auto;
+  text-align: center;
+  background: -webkit-linear-gradient(#49708f 50%, #293f50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: "HelveticaNeueLT Com 55 Roman", Helvetica, Arial, sans-serif;
+}
+#main
+{
+  position: relative;
+  margin-top:8em;
+  margin-left: 30em;
+  margin-right: 30em;
+  padding: 4%;
+}
+
+#footer
+{
+  position: relative;
+  font-family: "HelveticaNeueLT Com 45 Th", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #395870 ;
+  margin-top: 3em;
+}
+
+#footer a:link, a:visited
+{
+  color:#395870;
+  text-decoration: none;
+}
+
+#footer a:hover
+{
+  color:#F27F14;
+}
+
+.quoteHeading
+{
+  position: relative;
+  top:1em;
+  margin: auto ;
+  padding: 1em;
+  font-size: 60px;
+  text-align: center;
+  color: #395870;
+  font-family: "HelveticaNeueLT Com 35 th", Helvetica, Arial, sans-serif;
+}
+
+.apology span
+{
+  position: relative;
+  margin: auto ;
+  padding: 1em;
+  font-size: 70px;
+  color:#395870;
+  text-align: center;
+  font-family: "HelveticaNeueLT Com 35 th", Helvetica, Arial, sans-serif;
+}
+
+.apology
+{
+  position: relative;
+  top:1em;
+  margin: auto ;
+  padding: 1em;
+  font-size: 60px;
+  color: #395870;
+  text-align: center;
+  font-family: "HelveticaNeueLT Com 35 th", Helvetica, Arial, sans-serif;
+}
+	
+
+.center
+{
+	positon: relative;
+	margin-top:7em;
+}
+
+table 
+{
+  margin: auto;
+  border-collapse: 0;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/2.0 "HelveticaNeueLT Com 35 Th", Helvetica, Arial, sans-serif;
+}
+
+table a:link, a:visited
+{
+  color:#37164E;
+  text-decoration: none;
+}
+
+table a:hover
+{
+  color : #8120C6;
+  text-decoration: none;
+}
+
+th, td 
+{
+  padding: 10px 6em;
+  vertical-align: middle;
+}
+
+thead 
+{
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+th:first-child 
+{
+  border-top-left-radius: 5px;
+  text-align: left;
+}
+
+th:last-child 
+{
+  border-top-right-radius: 5px;
+}
+
+tbody tr:nth-child(even) 
+{
+  background: #f0f0f2;
+}
+
+td 
+{
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+td:first-child 
+{
+  border-left: 1px solid #cecfd5;
+}
+
+.symbolname 
+{
+  color: #395870;
+  display: block;
+}
+
+.text-offset 
+{
+  color: #7c7c80;
+  font-size: 12px;
+  text-align: left;
+}
+
+tfoot 
+{
+  text-align: right;
+}
+
+tfoot tr:last-child 
+{
+  background: -webkit-linear-gradient(#F6F6F6 50%, #C9C7C4);
+  background:    -moz-linear-gradient(#F6F6F6 50%, #C9C7C4);
+  background:         linear-gradient(#F6F6F6 50%, #C9C7C4);
+  color: #395870;
+  font-weight: bold;
+}
+
+tfoot tr:last-child td:first-child 
+{
+  border-bottom-left-radius: 5px;
+}
+
+tfoot tr:last-child td:last-child 
+{
+  border-bottom-right-radius: 5px;
+}
+
+select
+{
+    padding: 0.75em;
+    margin-bottom: 2em;
+    width: 100%;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 2px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 2px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#395870;
+    border:0.5px solid #ccc;
+    outline:none;
+    display: inline;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+.green
+{
+  color: #0F0;
+}
+
+.red
+{
+  color: #F00;
+}
+
+.quote
+{
+  position:absolute;
+  font-family: "HelveticaNeueLT Com 35 th", Helvetica, Arial, sans-serif;
+  margin-top: -2em;
+  margin-left: 35em;
+  color: #49708f;
+}
+
+.quote a:link, a:visited
+{
+  text-decoration: none;
+  color: #49798f;
+}
+
+.quote a:hover
+{
+  color: #000;
+}
+
+.index
+{
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:3em;
+  left:0;
+}
+
+.index div
+{
+  font-family: "HelveticaNeueLT Com 35 th", Helvetica, Arial, sans-serif;
+  font-size: 90px;
+  text-align: center;
+  width:100%;
+  height:19%;
+  display: block;
+  color:#395870;
+  text-transform: capitalize; 
+}
+
+.index a:link, a:visited
+{
+  color: #395870;
+  text-decoration: none;
+}
+
+.index a:hover
+{
+  color: black;
+  text-transform: !important;
+}
+/*
+.leaderboardBG
+{ 
+  background-image: url("images/leaderboard.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nameBG
+{
+  background-image: url("images/name.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.accountBG
+{
+  background-image: url("images/account.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buysellBG
+{
+  background-image: url("images/buysell.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cashBG
+{
+  background-image: url("images/cash.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+*/
+.accountSettings
+{ 
+  position: relative;
+  margin: auto;
+  margin-left :35em;  
+  top:10em;
+}
